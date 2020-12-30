@@ -1,6 +1,7 @@
 {
     "python.analysis.extraPaths": [
         "src/basics",
-        "src/data"
+        "src/data",
+        "src/parallelprocessing"
     ]
 }
