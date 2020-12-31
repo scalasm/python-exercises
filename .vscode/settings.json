@@ -2,6 +2,17 @@
     "python.analysis.extraPaths": [
         "src/basics",
         "src/data",
-        "src/parallelprocessing"
-    ]
+        "src/parallelprocessing",
+        "src/mocks_and_testing"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./src/mocks_and_testing",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true
 }
