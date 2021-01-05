@@ -3,12 +3,13 @@
         "src/basics",
         "src/data",
         "src/parallelprocessing",
-        "src/mocks_and_testing"
+        "src/mocks_and_testing",
+        "src/regex"
     ],
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./src/mocks_and_testing",
+        "./src/regex",
         "-p",
         "test_*.py"
     ],
